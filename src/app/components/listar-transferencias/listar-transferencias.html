@@ -1,0 +1,25 @@
+<div *ngIf="carregando">Carregando transferências...</div>
+<div *ngIf="erro">{{ erro }}</div>
+
+<table *ngIf="!carregando && transferencias.length > 0" border="1" cellpadding="5">
+  <tr>
+    <th>Conta Origem</th>
+    <th>Conta Destino</th>
+    <th>Valor</th>
+    <th>Data da Transferência</th>
+    <th>Data de Agendamento</th>
+    <th>Valor da Taxa</th>
+  </tr>
+  <tr *ngFor="let t of transferencias">
+    <td>{{ t.contaOrigem }}</td>
+    <td>{{ t.contaDestino }}</td>
+    <td>{{ t.valor | currency:'BRL' }}</td>
+    <td>{{ t.dataDaTransferencia }}</td>
+    <td>{{ t.dataDeAgendamento }}</td>
+    <td>{{ t.valorTaxa | currency:'BRL' }}</td>
+  </tr>
+</table>
+
+<div *ngIf="!carregando && transferencias.length === 0">
+  Nenhuma transferência encontrada.
+</div>

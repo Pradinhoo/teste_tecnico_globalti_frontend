@@ -1,0 +1,33 @@
+<h2>Criar Transferência</h2>
+
+<div *ngIf="sucesso" style="color: green;">{{ sucesso }}</div>
+<div *ngIf="erro" style="color: red;">{{ erro }}</div>
+
+<form #formTransferencia="ngForm" (ngSubmit)="criar(formTransferencia)">
+  <div>
+    <label>Conta Origem:</label>
+    <input type="text" name="contaOrigem" ngModel required>
+  </div>
+
+  <div>
+    <label>Conta Destino:</label>
+    <input type="text" name="contaDestino" ngModel required>
+  </div>
+
+  <div>
+    <label>Valor:</label>
+    <input type="number" name="valor" ngModel required>
+  </div>
+
+  <div>
+    <label>Data da Transferência:</label>
+    <input type="date" name="dataDaTransferencia" ngModel required>
+  </div>
+
+  <div>
+    <label>Data de Agendamento:</label>
+    <input type="date" name="dataDeAgendamento" ngModel required>
+  </div>
+
+  <button type="submit">Criar Transferência</button>
+</form>
