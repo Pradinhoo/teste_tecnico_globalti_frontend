@@ -14,8 +14,8 @@
     <td>{{ t.contaOrigem }}</td>
     <td>{{ t.contaDestino }}</td>
     <td>{{ t.valor | currency:'BRL' }}</td>
-    <td>{{ t.dataDaTransferencia }}</td>
-    <td>{{ t.dataDeAgendamento }}</td>
+    <td>{{ t.dataDaTransferencia | date:'dd/MM/yyyy' }}</td>
+    <td>{{ t.dataDeAgendamento | date:'dd/MM/yyyy' }}</td>
     <td>{{ t.valorTaxa | currency:'BRL' }}</td>
   </tr>
 </table>

@@ -1,0 +1,56 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow: hidden;
+
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 600;
+  }
+
+  tr {
+    background-color: #f9f9f9;
+    transition: background 0.2s;
+
+    &:nth-child(even) {
+      background-color: #e9e9e9;
+    }
+
+    &:hover {
+      background-color: #d4f4d4;
+    }
+  }
+}
+
+div[ng-reflect-ng-if] {
+  font-weight: 600;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+
+  &.erro {
+    background-color: #fdd;
+    color: #d00;
+  }
+
+  &.carregando {
+    background-color: #eef;
+    color: #33f;
+  }
+
+  &.nenhum {
+    background-color: #fff8dc;
+    color: #555;
+  }
+}
