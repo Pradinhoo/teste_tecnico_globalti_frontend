@@ -42,14 +42,19 @@ export class CriarTransferenciaComponent {
         this.sucesso = 'Transferência criada com sucesso!';
         this.erro = '';
         form.reset();
-
         this.transferenciaCriada.emit();
       },
       error: (err) => {
-        this.erro = 'Erro ao criar transferência.';
-        this.sucesso = '';
-        console.error(err);
-      }
+    if (typeof err.error === 'string') {
+      this.erro = err.error; 
+    } else if (err.error && typeof err.error === 'object') {
+      this.erro = Object.values(err.error).join(' | ');
+    } else {
+      this.erro = 'Erro ao criar transferência.';
+    }
+    this.sucesso = '';
+    console.error(err);
+  }
     });
   }
 }

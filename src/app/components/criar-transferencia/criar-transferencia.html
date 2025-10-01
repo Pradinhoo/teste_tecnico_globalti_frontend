@@ -1,7 +1,5 @@
-<h2>Criar Transferência</h2>
-
-<div *ngIf="sucesso" style="color: green;">{{ sucesso }}</div>
-<div *ngIf="erro" style="color: red;">{{ erro }}</div>
+<div *ngIf="sucesso" class="success">{{ sucesso }}</div>
+<div *ngIf="erro" class="error">{{ erro }}</div>
 
 <form #formTransferencia="ngForm" (ngSubmit)="criar(formTransferencia)">
   <div>
@@ -29,5 +27,5 @@
     <input type="date" name="dataDeAgendamento" ngModel required>
   </div>
 
-  <button type="submit">Criar Transferência</button>
+  <button type="submit">Realizar Transferência</button>
 </form>
