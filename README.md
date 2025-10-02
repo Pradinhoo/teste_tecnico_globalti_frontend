@@ -38,4 +38,3 @@ ng serve
 ```
 
 Isso iniciará o projeto e você poderá acessá-lo através do seu navegador no endereço `http://localhost:4200`.
----
