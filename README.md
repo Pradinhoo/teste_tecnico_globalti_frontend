@@ -11,8 +11,8 @@ Neste arquivo README, você encontrará um guia passo a passo para abrir o proje
 ## Pré-Requisitos
 
 Antes de rodar esse projeto, você precisa ter instalado:
-**Node.js** (Versão 22.x ou superior)
-**Angular CLI** (Versão 20.x ou superior)
+- **Node.js** (Versão 22.x ou superior)
+- **Angular CLI** (Versão 20.x ou superior)
 
 ## Passo 1: Clonar o repositório
 
