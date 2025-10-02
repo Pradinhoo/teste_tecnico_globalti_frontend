@@ -1,4 +1,4 @@
-# {Desafio Técnico Global TI}
+# Desafio Técnico Global TI
 
 Este repositório contém o Front-End de um teste técnico para a empresa Global TI, esse projeto foi desenvolvido utilizando HTML, CSS, TypeScript e Angular. Você pode encontrar o restante do projeto no link abaixo.
 
