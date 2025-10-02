@@ -4,6 +4,8 @@ Este repositório contém o Front-End de um teste técnico para a empresa Global
 
 Link do repositório do Back-End: https://github.com/Pradinhoo/teste_tecnico_globalti_backend
 
+Para que toda a aplicação funcione é necessário seguir o passo a passo do repositório Back-End e iniciar ambos os projetos ao mesmo tempo.
+
 Neste arquivo README, você encontrará um guia passo a passo para abrir o projeto em seu ambiente local.
 
 ## Passo 1: Clonar o repositório
@@ -36,7 +38,4 @@ ng serve
 ```
 
 Isso iniciará o projeto e você poderá acessá-lo através do seu navegador no endereço `http://localhost:4200`.
-
-Isso configurará o repositório remoto e enviará suas modificações para lá.
-
 ---
