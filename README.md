@@ -8,6 +8,12 @@ Para que toda a aplicação funcione é necessário seguir o passo a passo do re
 
 Neste arquivo README, você encontrará um guia passo a passo para abrir o projeto em seu ambiente local.
 
+## Pré-Requisitos
+
+Antes de rodar esse projeto, você precisa ter instalado:
+**Node.js** (Versão 22.x ou superior)
+**Angular CLI** (Versão 20.x ou superior)
+
 ## Passo 1: Clonar o repositório
 
 Comece clonando este repositório para sua máquina local. Abra o terminal e execute o seguinte comando:
