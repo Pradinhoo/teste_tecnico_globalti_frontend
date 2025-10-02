@@ -44,3 +44,6 @@ ng serve
 ```
 
 Isso iniciará o projeto e você poderá acessá-lo através do seu navegador no endereço `http://localhost:4200`.
+
+> Certifique-se de que o Back-End também está rodando seguindo as instruções do repositório do Back-End.
+
