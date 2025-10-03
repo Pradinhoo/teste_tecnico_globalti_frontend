@@ -1,5 +1,5 @@
 form {
-  display: flex; /* ADICIONADO */
+  display: flex; 
   flex-direction: column; 
   align-items: stretch;
   box-sizing: border-box;
@@ -23,7 +23,7 @@ form div {
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
-  box-sizing: border-box; /* ADICIONADO */
+  box-sizing: border-box; 
 }
 
 form label {
@@ -37,7 +37,7 @@ form input, form button {
   padding: 10px;
   border-radius: 5px;
   font-size: 14px;
-  box-sizing: border-box; /* ADICIONADO */
+  box-sizing: border-box; 
 }
 
 form input {
@@ -81,11 +81,11 @@ form button:hover {
 }
 
 .success {
-  background-color: #4CAF50; /* verde */
+  background-color: #4CAF50; 
 }
 
 .error {
-  background-color: #f44336; /* vermelho */
+  background-color: #f44336; 
 }
 
 .success.hide, .error.hide {
